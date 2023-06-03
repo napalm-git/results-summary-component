@@ -142,7 +142,7 @@ p {
   cursor: pointer;
 }
 
-.component-right button:active {
+.component-right button:hover {
   background: linear-gradient(
     to bottom,
     hsl(252, 100%, 67%),
