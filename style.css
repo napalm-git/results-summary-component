@@ -198,6 +198,7 @@
 @media screen and (max-width: 375px) {
   .container {
     box-shadow: none;
+    border-radius: 0;
   }
 
   .component-left .result {
@@ -244,6 +245,7 @@
     transform: none;
     overflow-x: hidden;
     box-shadow: none;
+    border-radius: 0;
   }
 
   .component-right {
