@@ -11,6 +11,8 @@
   max-width: 1440px;
   margin: 0 auto;
   font-family: "Hanken Grotesk", sans-serif;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 /* COMPONENT LEFT */
@@ -27,7 +29,7 @@
   color: hsl(221, 100%, 96%);
   border-radius: 20px;
   text-align: center;
-  padding: 30px 50px;
+  padding: 33px 50px;
 }
 
 .component-left .result {
@@ -78,8 +80,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 40px 50px;
+  padding: 30px 50px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -126,8 +127,35 @@
 
 .component-right .skills .skill-degree {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   justify-content: space-between;
+}
+
+.component-right .skill-degree.red {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+.component-right .skill-degree.yellow {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  border-radius: 10px;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+
+.component-right .skill-degree.teal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  border-radius: 10px;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+
+.component-right .skill-degree.blue {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  border-radius: 10px;
+  padding: 0 5px;
+  margin-top: 10px;
 }
 
 .component-right button {
@@ -168,6 +196,10 @@
 /* Responsive */
 
 @media screen and (max-width: 375px) {
+  .container {
+    box-shadow: none;
+  }
+
   .component-left .result {
     color: hsl(241, 100%, 89%);
     font-size: 18px;
@@ -211,6 +243,7 @@
     -webkit-transform: none;
     transform: none;
     overflow-x: hidden;
+    box-shadow: none;
   }
 
   .component-right {
@@ -227,12 +260,5 @@
     padding-right: 58px;
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
-  }
-}
-
-@media screen and (max-width: 1210px) {
-  .component-left {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
