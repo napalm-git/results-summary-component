@@ -248,6 +248,14 @@
     border-radius: 0;
   }
 
+  .component-left {
+    width: 100%;
+    padding-left: 58px;
+    padding-right: 58px;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+
   .component-right {
     width: 100%;
   }
@@ -256,11 +264,7 @@
     align-self: center;
   }
 
-  .component-left {
-    width: 100%;
-    padding-left: 58px;
-    padding-right: 58px;
-    border-bottom-right-radius: 20%;
-    border-bottom-left-radius: 20%;
+  .component-right .skills {
+    width: 75%;
   }
 }
