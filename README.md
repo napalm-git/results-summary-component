@@ -1,4 +1,4 @@
-# results-summary-component
+# Result Summary Component
 
 My Attemt at FrontEnd Mentor | Results summary component Challenge
 
