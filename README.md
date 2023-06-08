@@ -1,6 +1,6 @@
 # Result Summary Component
 
-My Attemt at FrontEnd Mentor | Results summary component Challenge
+My Attempt at FrontEnd Mentor | Results summary component Challenge
 
 Pages link is below 👇
 
